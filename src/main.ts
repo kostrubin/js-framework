@@ -15,7 +15,7 @@ type VNode = {
   props?: VNodeProps;
 };
 
-class jsFramework {
+class JsFramework {
   private root: HTMLElement;
   private currentVNode: VNode | null = null;
 
@@ -123,7 +123,7 @@ class jsFramework {
   }
 }
 
-const app = new jsFramework("#app");
+const app = new JsFramework("#app");
 const initialConfig: VNode = {
   tag: "div",
   props: {
